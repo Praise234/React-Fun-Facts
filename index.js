@@ -1,8 +1,13 @@
 function Header(){
     return (
         <header>
-            <nav>
-                <img src = "./react-logo.png" width = "40px" />
+            <nav className = "nav">
+                <img className = "nav-logo" src = "./react-logo.png" />
+                <ul className = "nav-items">
+                    <li><a href="">Pricing</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Contact</a></li>
+                </ul>
             </nav>
         </header>
     )
