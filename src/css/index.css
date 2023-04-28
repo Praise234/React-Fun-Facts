@@ -34,6 +34,10 @@ nav > h4{
 }
 .main{
     padding: 57px 27px;
+    background-image: url("../images/bg-logo.svg");
+    background-repeat: no-repeat;
+    background-position: 21em 14em;
+    background-size: 330px;
 }
 .main > h1{
     color: #fff;
